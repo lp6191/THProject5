@@ -222,19 +222,19 @@ button {
   }
 
   .album-wrap {
-    height: 290px;
+    height: 250px;
     border: 1px solid white;
     overflow: hidden;
   }
 
-  .album- {
+  .album-art {
     width: 100%;
     min-height: 100%;
     -webkit-transition: -webkit-transform .4s ease-out;
     transition: transform .4s ease-out;
   }
 
-  .-wrap:hover .album- {
+  .album-wrap:hover .album-art {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
@@ -276,7 +276,4 @@ button {
     width: 25%;
   }
 
-  .album-list li:nth-of-type(4n+1) {
-    clear: left;
-  }
 }
